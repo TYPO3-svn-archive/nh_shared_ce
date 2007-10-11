@@ -1,0 +1,2 @@
+ # cat=basic; type=string; label=Allowed client hosts: host1,host2..
+allowedHosts = 127.0.0.1

@@ -1,0 +1,6 @@
+includeLibs.tx_nhsharedce_pi2 = EXT:nh_shared_ce/pi2/class.tx_nhsharedce_pi2.php
+plugin.tx_nhsharedce_pi2 = USER
+plugin.tx_nhsharedce_pi2 {
+  userFunc = tx_nhsharedce_pi2->main
+}
+tt_content.list.20.nh_shared_ce_pi2 =< plugin.tx_nhsharedce_pi2
